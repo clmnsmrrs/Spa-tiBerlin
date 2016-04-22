@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860393AB1CC025A9003CEF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860393AA1CC025A9003CEF11 /* AppDelegate.swift */; };
+		860393AD1CC025A9003CEF11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860393AC1CC025A9003CEF11 /* ViewController.swift */; };
+		860393B01CC025A9003CEF11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860393AE1CC025A9003CEF11 /* Main.storyboard */; };
+		860393B21CC025A9003CEF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860393B11CC025A9003CEF11 /* Assets.xcassets */; };
+		860393B51CC025A9003CEF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860393B31CC025A9003CEF11 /* LaunchScreen.storyboard */; };
+		860393BD1CC02C5C003CEF11 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 860393BC1CC02C5C003CEF11 /* CoreLocation.framework */; };
+		861DC1591CC6687300020C10 /* späti.png in Resources */ = {isa = PBXBuildFile; fileRef = 861DC1581CC6687300020C10 /* späti.png */; };
+		8661AA011CC60C96001DF68A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA001CC60C96001DF68A /* AudioToolbox.framework */; };
+		8661AA031CC60CA0001DF68A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA021CC60CA0001DF68A /* CFNetwork.framework */; };
+		8661AA051CC60CAA001DF68A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA041CC60CAA001DF68A /* CoreGraphics.framework */; };
+		8661AA071CC60CCA001DF68A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA061CC60CCA001DF68A /* libz.tbd */; };
+		8661AA091CC60CDD001DF68A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA081CC60CDD001DF68A /* MobileCoreServices.framework */; };
+		8661AA0B1CC60CE7001DF68A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA0A1CC60CE7001DF68A /* QuartzCore.framework */; };
+		8661AA0D1CC60CEE001DF68A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA0C1CC60CEE001DF68A /* Security.framework */; };
+		8661AA0F1CC60CF6001DF68A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA0E1CC60CF6001DF68A /* StoreKit.framework */; };
+		8661AA111CC60CFE001DF68A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA101CC60CFE001DF68A /* SystemConfiguration.framework */; };
+		8661AA131CC60D16001DF68A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA121CC60D16001DF68A /* libsqlite3.tbd */; };
+		8661AA1A1CC60D49001DF68A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA141CC60D49001DF68A /* Bolts.framework */; };
+		8661AA1B1CC60D49001DF68A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA151CC60D49001DF68A /* Parse.framework */; };
+		8661AA1C1CC60D49001DF68A /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA161CC60D49001DF68A /* ParseFacebookUtils.framework */; };
+		8661AA1D1CC60D49001DF68A /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA171CC60D49001DF68A /* ParseFacebookUtilsV4.framework */; };
+		8661AA1E1CC60D49001DF68A /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA181CC60D49001DF68A /* ParseTwitterUtils.framework */; };
+		8661AA1F1CC60D49001DF68A /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8661AA191CC60D49001DF68A /* ParseUI.framework */; };
+		8661AA221CC60D77001DF68A /* CustomClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8661AA211CC60D77001DF68A /* CustomClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		860393A71CC025A9003CEF11 /* Späti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Späti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		860393AA1CC025A9003CEF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		860393AC1CC025A9003CEF11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		860393AF1CC025A9003CEF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		860393B11CC025A9003CEF11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		860393B41CC025A9003CEF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		860393B61CC025A9003CEF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		860393BC1CC02C5C003CEF11 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		861DC1581CC6687300020C10 /* späti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "späti.png"; sourceTree = "<group>"; };
+		8661AA001CC60C96001DF68A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8661AA021CC60CA0001DF68A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8661AA041CC60CAA001DF68A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8661AA061CC60CCA001DF68A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8661AA081CC60CDD001DF68A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8661AA0A1CC60CE7001DF68A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8661AA0C1CC60CEE001DF68A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8661AA0E1CC60CF6001DF68A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8661AA101CC60CFE001DF68A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8661AA121CC60D16001DF68A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		8661AA141CC60D49001DF68A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		8661AA151CC60D49001DF68A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8661AA161CC60D49001DF68A /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		8661AA171CC60D49001DF68A /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		8661AA181CC60D49001DF68A /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		8661AA191CC60D49001DF68A /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		8661AA201CC60D77001DF68A /* Späti-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Späti-Bridging-Header.h"; sourceTree = "<group>"; };
+		8661AA211CC60D77001DF68A /* CustomClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		860393A41CC025A9003CEF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8661AA1C1CC60D49001DF68A /* ParseFacebookUtils.framework in Frameworks */,
+				8661AA131CC60D16001DF68A /* libsqlite3.tbd in Frameworks */,
+				8661AA111CC60CFE001DF68A /* SystemConfiguration.framework in Frameworks */,
+				8661AA0F1CC60CF6001DF68A /* StoreKit.framework in Frameworks */,
+				8661AA1A1CC60D49001DF68A /* Bolts.framework in Frameworks */,
+				8661AA0D1CC60CEE001DF68A /* Security.framework in Frameworks */,
+				8661AA1E1CC60D49001DF68A /* ParseTwitterUtils.framework in Frameworks */,
+				8661AA0B1CC60CE7001DF68A /* QuartzCore.framework in Frameworks */,
+				8661AA1B1CC60D49001DF68A /* Parse.framework in Frameworks */,
+				8661AA1F1CC60D49001DF68A /* ParseUI.framework in Frameworks */,
+				8661AA091CC60CDD001DF68A /* MobileCoreServices.framework in Frameworks */,
+				8661AA071CC60CCA001DF68A /* libz.tbd in Frameworks */,
+				8661AA051CC60CAA001DF68A /* CoreGraphics.framework in Frameworks */,
+				8661AA031CC60CA0001DF68A /* CFNetwork.framework in Frameworks */,
+				8661AA011CC60C96001DF68A /* AudioToolbox.framework in Frameworks */,
+				860393BD1CC02C5C003CEF11 /* CoreLocation.framework in Frameworks */,
+				8661AA1D1CC60D49001DF68A /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8603939E1CC025A9003CEF11 = {
+			isa = PBXGroup;
+			children = (
+				8661AA121CC60D16001DF68A /* libsqlite3.tbd */,
+				860393BC1CC02C5C003CEF11 /* CoreLocation.framework */,
+				8661AA101CC60CFE001DF68A /* SystemConfiguration.framework */,
+				8661AA0E1CC60CF6001DF68A /* StoreKit.framework */,
+				8661AA0C1CC60CEE001DF68A /* Security.framework */,
+				8661AA0A1CC60CE7001DF68A /* QuartzCore.framework */,
+				8661AA081CC60CDD001DF68A /* MobileCoreServices.framework */,
+				8661AA061CC60CCA001DF68A /* libz.tbd */,
+				8661AA141CC60D49001DF68A /* Bolts.framework */,
+				8661AA151CC60D49001DF68A /* Parse.framework */,
+				8661AA161CC60D49001DF68A /* ParseFacebookUtils.framework */,
+				8661AA171CC60D49001DF68A /* ParseFacebookUtilsV4.framework */,
+				8661AA181CC60D49001DF68A /* ParseTwitterUtils.framework */,
+				8661AA191CC60D49001DF68A /* ParseUI.framework */,
+				8661AA041CC60CAA001DF68A /* CoreGraphics.framework */,
+				8661AA021CC60CA0001DF68A /* CFNetwork.framework */,
+				8661AA001CC60C96001DF68A /* AudioToolbox.framework */,
+				860393A91CC025A9003CEF11 /* Späti */,
+				860393A81CC025A9003CEF11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		860393A81CC025A9003CEF11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				860393A71CC025A9003CEF11 /* Späti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		860393A91CC025A9003CEF11 /* Späti */ = {
+			isa = PBXGroup;
+			children = (
+				860393AA1CC025A9003CEF11 /* AppDelegate.swift */,
+				860393AC1CC025A9003CEF11 /* ViewController.swift */,
+				860393AE1CC025A9003CEF11 /* Main.storyboard */,
+				860393B11CC025A9003CEF11 /* Assets.xcassets */,
+				861DC1581CC6687300020C10 /* späti.png */,
+				860393B31CC025A9003CEF11 /* LaunchScreen.storyboard */,
+				860393B61CC025A9003CEF11 /* Info.plist */,
+				8661AA211CC60D77001DF68A /* CustomClass.m */,
+				8661AA201CC60D77001DF68A /* Späti-Bridging-Header.h */,
+			);
+			path = "Späti";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		860393A61CC025A9003CEF11 /* Späti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860393B91CC025A9003CEF11 /* Build configuration list for PBXNativeTarget "Späti" */;
+			buildPhases = (
+				860393A31CC025A9003CEF11 /* Sources */,
+				860393A41CC025A9003CEF11 /* Frameworks */,
+				860393A51CC025A9003CEF11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Späti";
+			productName = "Späti";
+			productReference = 860393A71CC025A9003CEF11 /* Späti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8603939F1CC025A9003CEF11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Clemens Morris";
+				TargetAttributes = {
+					860393A61CC025A9003CEF11 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7744SHRFJG;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 860393A21CC025A9003CEF11 /* Build configuration list for PBXProject "Späti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8603939E1CC025A9003CEF11;
+			productRefGroup = 860393A81CC025A9003CEF11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				860393A61CC025A9003CEF11 /* Späti */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		860393A51CC025A9003CEF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860393B51CC025A9003CEF11 /* LaunchScreen.storyboard in Resources */,
+				860393B21CC025A9003CEF11 /* Assets.xcassets in Resources */,
+				861DC1591CC6687300020C10 /* späti.png in Resources */,
+				860393B01CC025A9003CEF11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		860393A31CC025A9003CEF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860393AD1CC025A9003CEF11 /* ViewController.swift in Sources */,
+				860393AB1CC025A9003CEF11 /* AppDelegate.swift in Sources */,
+				8661AA221CC60D77001DF68A /* CustomClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		860393AE1CC025A9003CEF11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860393AF1CC025A9003CEF11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		860393B31CC025A9003CEF11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				860393B41CC025A9003CEF11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		860393B71CC025A9003CEF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		860393B81CC025A9003CEF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		860393BA1CC025A9003CEF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Späti/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clemens.Spa-ti";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Späti/Späti-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		860393BB1CC025A9003CEF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Späti/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clemens.Spa-ti";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Späti/Späti-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		860393A21CC025A9003CEF11 /* Build configuration list for PBXProject "Späti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860393B71CC025A9003CEF11 /* Debug */,
+				860393B81CC025A9003CEF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860393B91CC025A9003CEF11 /* Build configuration list for PBXNativeTarget "Späti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860393BA1CC025A9003CEF11 /* Debug */,
+				860393BB1CC025A9003CEF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8603939F1CC025A9003CEF11 /* Project object */;
+}
